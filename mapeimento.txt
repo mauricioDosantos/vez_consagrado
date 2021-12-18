@@ -1,0 +1,53 @@
+"expand": "description,lead,issueTypes,url,projectKeys,permissions,insight",
+    "self": "https://sensedata.atlassian.net/rest/api/2/project/10020",
+    "id": "10020",
+    "key": "SA",
+    "name": "Squad Axé",
+    "avatarUrls": {
+        "48x48": "https://sensedata.atlassian.net/secure/projectavatar?pid=10020&avatarId=10505",
+        "24x24": "https://sensedata.atlassian.net/secure/projectavatar?size=small&s=small&pid=10020&avatarId=10505",
+        "16x16": "https://sensedata.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10020&avatarId=10505",
+        "32x32": "https://sensedata.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10020&avatarId=10505"
+    },
+    "projectTypeKey": "software",
+    "simplified": false,
+    "style": "classic",
+    "isPrivate": false,
+    "properties": {}
+
+issues = [
+    {'fields':
+        {
+        'priority':{'id'}
+        'status':{} = To do, Go production
+        customfield_10010: [{Sprint 32 axé} "state": "closed"
+        'reporter': 'displayName']
+        customfield_10049 = é o story points.}
+    }
+]
+
+Exemplo de que esse deve pegar.
+status igual To do, In progress, Pronto para qa, Erro qa, Qa cliente, Itens concluídos, Go production
+
+projectKey=SA&
+
+
+            'JIRA_USER': 'paulo.souza@sensedata.com.br',
+            'JIRA_PW': 'xAgPeVji4UURafRlU1fb97B0'
+
+
+
+"customfield_10010": [{
+    "id": 441,
+    "name": "Sprint 30 axé",
+    "state": "closed",
+    "boardId": 65,
+    "goal": "Pedir música no fantástico",
+    "startDate": "2021-04-26T13:45:06.861Z",
+    "endDate": "2021-04-30T21:53:00.000Z",
+    "completeDate": "2021-04-30T23:58:33.543Z"
+}]
+SA-1421
+Pegar os da ultima senama que não foram para go production
+
+jqql - filtrar pela ref_date da semana passada

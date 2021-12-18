@@ -1,0 +1,9 @@
+-- functions removeder
+
+def clean_terminal():
+    if pf_sys() == 'Windows':
+        system('cls')
+    elif pf_sys() == 'Linux':
+        system('clear')
+    elif pf_sys() == 'Mac':
+        system("clear && printf '\e[3J'")
